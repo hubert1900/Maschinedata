@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: lightgray;
+    text-align: center;
+}
+
+img {
+    margin: 20px;
+    width: 500px;
+    height: 400px;
+}
+
+.input-container {
+    margin-bottom: 50px;
+    margin: 20px;
+    
+}
+
+header {
+    background-color: lightgray;
+    color: #1e1c1f;
+    padding: 20px;
+    text-align: center;
+    font-size: 25px;
+}
+
+h2 {
+    color: rgb(238, 161, 6);
+    font-size: 25px;
+}
+nav ul {
+    list-style-type: none;
+    margin: 15px;
+    padding: 15px;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+    background-color: rgb(235, 235, 240);
+}
+
+main {
+    padding: 30px;
+    color: rgb(13, 13, 13);
+    background-color: rgb(233, 233, 239);
+    display: flex;
+    text-align: center;
+}
+
+section {
+    margin-bottom: 10px;
+ 
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: nowrap;
+}   
+
+
+.image-container {
+    margin: 10px;
+    padding: 10px;
+}
+
+footer {
+    background-color: #848484;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+.maschine-container {
+    margin-left: 250px;
+    padding: 10px;
+   
+}
+#video {
+    width: 200px;
+    height: 150px;
+    
+}
