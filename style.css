@@ -1,0 +1,218 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: lightgray;
+    text-align: center;
+}
+
+img {
+    margin: 20px;
+    width: 500px;
+    height: 400px;
+}
+
+.input-container {
+    margin-bottom: 50px;
+    margin: 20px;
+      
+}
+
+header {
+    background-color: lightgray;
+    color: #1e1c1f;
+    padding: 20px;
+    text-align: center;
+    font-size: 25px;
+}
+/* style für den dark mode toggle */
+.toggle-container {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.toggle-pill {
+    width: 60px;
+    height: 30px;
+    background-color: #ccc;
+    border-radius: 15px;
+    cursor: pointer;
+    margin: 0 10px;
+    position: relative;
+}
+
+/* reference aus w3schools */
+.toggle-circle {
+    width: 30px;
+    height: 30px;
+    background-color: #fff;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    transition: transform 0.3s ease;
+}
+
+/* styles für tag und nacht icons */
+#day-icon,
+#night-icon {
+    font-size: 20px;
+}
+
+h2 {
+    color: rgb(249, 55, 1);
+    font-size: 25px;
+}
+nav ul {
+    list-style-type: none;
+    margin: 15px;
+    padding: 15px;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+    background-color: rgb(235, 235, 240);
+}
+
+main {
+    padding: 30px;
+    color: rgb(13, 13, 13);
+    background-color: rgb(233, 233, 239);
+    display: flex;
+    text-align: center;
+}
+
+section {
+    margin-bottom: 10px;
+ 
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: nowrap;
+}   
+
+
+.image-container {
+    margin: 10px;
+    padding: 10px;
+}
+
+footer {
+    background-color: #737373;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+.maschine-container {
+    margin-left: 250px;
+    padding: 10px;
+   
+}
+#video {
+    width: 200px;
+    height: 150px;
+    
+}
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Header Styles */
+header {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Toggle Styles */
+.toggle-pill {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.toggle-label {
+    margin-right: 10px;
+}
+
+.toggle-circle {
+    width: 20px;
+    height: 20px;
+    background-color: #fff;
+    border-radius: 50%;
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Machine Data Styles */
+#data-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.machine-container {
+    width: 30%;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.machine-header {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.property-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+
+.property-label {
+    font-weight: bold;
+}
+
+.property-value {
+    flex-grow: 1;
+    text-align: right;
+}
+
+/* Color variations for different machines */
+.machine-container.machine1-color {
+    background-color: #e74c3c;
+    color: #fff;
+}
+
+.machine-container.machine2-color {
+    background-color: #2ecc71;
+    color: #fff;
+}
+
+.machine-container.machine3-color {
+    background-color: #3498db;
+    color: #fff;
+}
+
+/* ... Add more machine colors as needed */
+
+/* Dark Theme Styles */
+.dark-theme #data-container {
+    background-color: #333;
+    color: #fff;
+}
+
+.dark-theme .machine-container {
+    background-color: #555;
+    color: #fff;
+}
+
+/* Add more dark theme styles as needed */

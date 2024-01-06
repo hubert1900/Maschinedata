@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" id="theme-stylesheet">
+    <title>Willkommen auf der Seite zur Maschinendatenauswertung</title>
+</head>
+<body>
+
+    <header>
+        <h1>Maschinendatenauswertung</h1>
+        <div class="toggle-container">
+            <span id="day-icon">☀️</span>
+            <div class="toggle-pill" onclick="toggleTheme()">
+                <div class="toggle-circle"></div>
+            </div>
+            <span id="night-icon">🌙</span>
+        </div>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Hauptseite</a></li>
+            <li><a href="subpage1.html">Live Status</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section>
+            <h2>Aktueller Status der Maschinendaten</h2>
+    
+            <div id="filter-section">
+              
+              
+
+                </select>
+                <button id="filter-button">Filtern</button>
+               
+
+                <input type="checkbox" class="machine-selector" id="machine1" onchange="selectMachine(0)">
+                <label for="machine1">Machine 1</label>
+
+                <input type="checkbox" class="machine-selector" id="machine2" onchange="selectMachine(1)">
+                <label for="machine2">Machine 2</label>
+
+                <input type="checkbox" class="machine-selector" id="machine3" onchange="selectMachine(2)">
+                <label for="machine3">Machine 3</label>
+
+                <input type="checkbox" class="machine-selector" id="machine4" onchange="selectMachine(3)">
+                <label for="machine4">Machine 4</label>
+
+                <input type="checkbox" class="machine-selector" id="machine5" onchange="selectMachine(4)">
+                <label for="machine5">Machine 5</label>
+
+                <input type="checkbox" id="selectAllCheckbox" onchange="selectAllMachines()">
+                <label for="selectAllCheckbox">Alle Maschinen auswählen</label>
+                <!-- Beispiel für 5 Auswahl-Checkboxes -->
+
+            </div>
+
+    
+            <!-- Datencontainer -->
+            <div id="data-container"></div>
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; 2023 FHSTP</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
